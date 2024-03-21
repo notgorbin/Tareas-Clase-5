@@ -58,7 +58,7 @@ $botonAgregar.onclick = function () {
   contadorVideos++;
 
   item = document.createElement("li");
-  tiempo = `${subTitulo}: ${horas} hs ${minutos} min ${segundos} seg`;
+  tiempo = `${subTitulo} --- ${horas} hs ${minutos} min ${segundos} seg`;
 
   item.textContent = tiempo;
   $listaVideos.appendChild(item);
